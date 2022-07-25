@@ -14,7 +14,7 @@ function search(){
     let data = array;
     let result = data.filter(function(item){
         return item.name.toLowerCase().includes(search.toLowerCase());
-        return item.gender.toLowerCase().includes(search.toLowerCase());
+        return item.publisher.toLowerCase().includes(search.toLowerCase());
 
     }
     );
